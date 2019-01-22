@@ -10,7 +10,7 @@ class App extends Component {
     super(props);
     this.handleClear = this.handleClear.bind(this);
     this.state = {
-      input: ""
+      input: " "
     };
   }
   handleClear() {
